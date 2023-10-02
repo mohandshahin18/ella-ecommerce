@@ -1,7 +1,7 @@
 <template>
   <div class="nav-bar">
     <v-app-bar color="#02218f" height="fit-content">
-      <v-container fluid>
+      <v-container style="max-width: 93% !important">
         <v-row
           ><v-col cols="3"><img src="@/assets/images/logo.png" alt="" /></v-col>
           <v-col cols="5">
@@ -32,7 +32,7 @@
           </v-col>
 
           <v-col cols="4" class="ps-8">
-            <div class="parent d-flex justify-space-between align-center">
+            <div class="parent d-flex justify-end align-center">
               <div class="availabe text-white">
                 <span>Avilable 24/7 at</span>
                 <br />
@@ -384,6 +384,7 @@ input {
   outline: none;
 }
 .parent {
+  gap: 30px;
   color: #ffb547;
   svg {
     width: 28px;

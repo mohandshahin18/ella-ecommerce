@@ -1,13 +1,10 @@
 <template>
   <div class="home">
-    <h1>This is home</h1>
+    <UpperBanner />
   </div>
 </template>
 
-<script>
+<script setup>
 // @ is an alias to /src
-
-export default {
-  name: "HomeView",
-};
+import UpperBanner from "@/components/home_page/UpperBanner";
 </script>

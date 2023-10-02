@@ -5,7 +5,7 @@
       <CartDrawer :drawer="drawer" />
       <!-- end Cart Drawer -->
 
-      <v-main>
+      <v-main style="padding-top: 146px">
         <slot></slot>
       </v-main>
 
