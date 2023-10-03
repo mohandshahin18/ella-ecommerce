@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <v-layout>
+    <v-layout class="position-relative">
       <!-- start Cart Drawer -->
       <CartDrawer :drawer="drawer" />
       <!-- end Cart Drawer -->

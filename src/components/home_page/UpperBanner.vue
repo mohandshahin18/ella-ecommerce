@@ -8,7 +8,7 @@
               <h3><span>Huge Saving</span> on UHD Televisions</h3>
               <p>Sale up to 70% on seleted items*</p>
               <v-hover>
-                <template v-slot:default="{ isHovering, props }">
+                <template v-slot="{ isHovering, props }">
                   <v-btn
                     :variant="isHovering ? 'elevated' : 'outlined'"
                     rounded="xl"

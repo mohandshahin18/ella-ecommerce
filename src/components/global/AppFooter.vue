@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <v-footer :app="true" elevation="20">
+    <v-footer :app="true" elevation="20" absolute>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, facilis
         dolor libero ipsa suscipit nisi sed magnam eum quasi quas voluptatibus
